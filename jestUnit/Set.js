@@ -4,9 +4,11 @@ class Set{
 		this.setArray = []
 		this.arrSize =0;;
 	}
+	
 	isEmpty() {
 		return this.arrSize ===0;
 	}
+
 	add(){
 		this.arrSize++;
 	}
